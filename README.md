@@ -12,14 +12,14 @@ Tambien debemos de asegurarnos que el puerto 80 no este siendo utilizado ya sea 
 En caso de que si este siendo ocupado, desactivar esos servicios.
 
 1. Estando adentro del directorio Container hay que dar permisos al script.
-------------------------
+************************
 sudo chmod u+x auto.sh
-------------------------
+************************
 
 2. Ejecutamos el script (Tambien estando dentro del directorio Container).
-----------------------
+*********************
 sudo ./auto.sh
-----------------------
+*********************
 
 El script lo que hara es que actualizara los repositorios de la maquina local.
 Instalara docker en el caso de que no este instalado.
