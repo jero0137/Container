@@ -1,7 +1,5 @@
 apt update 
 apt install docker 
-git clone https://github.com/jero0137/Container.git
-cd Contaniner/
 mkdir templates
 mkdir static
 mv index.html templates/
